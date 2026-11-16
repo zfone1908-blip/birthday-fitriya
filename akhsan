@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Birthday Fitriya ❤️</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;
+ font-family:Georgia,serif;
+ color:#9b4169;
+ background:linear-gradient(140deg,#fff0f6,#ffd6e7,#fff5fa);
+ text-align:center;
+ overflow-x:hidden;
+}
+section{padding:65px 18px}
+.hero{
+ min-height:100vh;display:flex;flex-direction:column;
+ justify-content:center;align-items:center;
+}
+h1{font-size:clamp(38px,9vw,60px);margin:15px 0;color:#d64d89}
+h2{color:#d64d89}
+p{line-height:1.9}
+button{
+ border:0;background:#e65b96;color:white;
+ padding:14px 25px;border-radius:30px;
+ font-size:15px;margin:10px;cursor:pointer;
+}
+button:hover{background:#bd3976}
+.card{
+ background:#ffffffd9;padding:25px;
+ border-radius:24px;max-width:550px;
+ margin:20px auto;box-shadow:0 8px 25px #bd719444;
+}
+.heart{font-size:55px;animation:pulse 1.2s infinite}
+@keyframes pulse{50%{transform:scale(1.2)}}
+.hidden{display:none}
+.envelope{font-size:80px;cursor:pointer}
+.gallery{
+ display:grid;grid-template-columns:repeat(2,1fr);
+ gap:12px;max-width:600px;margin:25px auto;
+}
+.gallery img{
+ width:100%;height:190px;object-fit:cover;
+ border-radius:17px;border:3px solid white;
+}
+.music iframe{
+ width:100%;max-width:450px;height:230px;
+ border:0;border-radius:18px;
+}
+.float{
+ position:fixed;bottom:-30px;
+ pointer-events:none;animation:up 7s linear forwards;
+ z-index:5;
+}
+@keyframes up{
+ to{transform:translateY(-110vh) rotate(360deg);opacity:0}
+}
+.small{font-size:12px;color:#b47794}
+</style>
+</head>
+<body>
+
+<section class="hero">
+ <div class="heart">💗</div>
+ <p>A special day for someone special</p>
+ <h1>Happy Birthday</h1>
+ <h2>Fitriya Azzuhroh 🌷</h2>
+ <p>Ada kejutan kecil yang dibuat khusus untukmu...</p>
+ <button onclick="document.getElementById('surat').scrollIntoView({behavior:'smooth'})">
+ Buka Kejutan ❤️
+ </button>
+ <p class="small">Made with love by adee</p>
+</section>
+
+<section id="surat">
+ <h2>💌 A Letter For You</h2>
+ <p>Klik amplop di bawah ini yaa.</p>
+ <div class="envelope" onclick="bukaSurat()">💌</div>
+
+ <div id="isiSurat" class="card hidden">
+  <h2>Dear Fitriya ❤️</h2>
+  <p>
+   Selamat ulang tahun, Fitriya Azzuhroh.
+   Hari ini adalah hari spesial karena seseorang
+   yang begitu berharga sedang bertambah usia.
+  </p>
+  <p>
+   Adee berharap semoga di umur barumu ini,
+   kamu selalu diberikan kesehatan, kebahagiaan,
+   kelancaran dalam segala urusan dan semua
+   impianmu bisa menjadi kenyataan.
+  </p>
+  <p>
+   Terima kasih sudah hadir dan memberikan
+   warna indah dalam cerita ini.
+   Jangan pernah berhenti tersenyum,
+   karena senyummu adalah salah satu hal
+   yang paling indah.
+  </p>
+  <p>
+   Semoga kita bisa terus membuat kenangan
+   indah bersama dan melewati banyak cerita
+   berikutnya.
+  </p>
+  <h3>With love, adee 💗</h3>
+ </div>
+</section>
+
+<section>
+ <h2>📸 Our Memories</h2>
+ <p>Lima potongan kenangan yang ingin selalu disimpan.</p>
+
+ <div class="gallery">
+  <img src="WhatsApp%20Image%202026-11-16%20at%2014.08.37.jpeg" alt="Kenangan 1">
+  <img src="WhatsApp%20Image%202026-11-16%20at%2014.08.38.jpeg" alt="Kenangan 2">
+  <img src="WhatsApp%20Image%202026-11-16%20at%2014.08.39.jpeg" alt="Kenangan 3">
+  <img src="WhatsApp%20Image%202026-11-16%20at%2014.08.40.jpeg" alt="Kenangan 4">
+  <img src="WhatsApp%20Image%202026-11-16%20at%2014.08.41.jpeg" alt="Kenangan 5">
+ </div>
+</section>
+
+<section>
+ <div class="card">
+  <h2>🌸 My Wishes For You</h2>
+  <p>
+   Semoga hari-harimu selalu dipenuhi kebahagiaan.
+   Semoga setiap langkahmu dimudahkan,
+   setiap doa baikmu dikabulkan,
+   dan selalu ada alasan untuk tersenyum.
+  </p>
+  <div class="heart">💕</div>
+  <h3>You deserve all the happiness!</h3>
+ </div>
+</section>
+
+<section class="music">
+ <h2>🎵 Our Special Song</h2>
+ <p>Putar lagu ini sambil membaca pesan dari adee.</p>
+ <div class="card">
+  <h3>Perfect - Ed Sheeran ❤️</h3>
+  <iframe
+   src="https://www.youtube.com/embed/2Vv-BfVoq4g"
+   title="Ed Sheeran Perfect"
+   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+   allowfullscreen>
+  </iframe>
+  <p class="small">Tekan tombol play untuk mendengarkan.</p>
+ </div>
+</section>
+
+<section>
+ <div class="heart">💖</div>
+ <h1>Happy Birthday!</h1>
+ <h2>Fitriya Azzuhroh</h2>
+ <p>
+  Terima kasih sudah menjadi bagian dari cerita indah ini.
+  Semoga bahagia selalu yaa.
+ </p>
+ <h2>Forever with love, adee 🌷</h2>
+ <button onclick="window.scrollTo({top:0,behavior:'smooth'})">
+ Kembali ke awal ↑
+ </button>
+</section>
+
+<footer style="padding:25px">
+ Made with ❤️ by adee for Fitriya
+</footer>
+
+<script>
+function bukaSurat(){
+ document.getElementById("isiSurat").classList.toggle("hidden");
+}
+function buatHati(){
+ let h=document.createElement("div");
+ h.className="float";
+ h.innerHTML=["💗","💕","❤️","🌸","💖"][Math.floor(Math.random()*5)];
+ h.style.left=Math.random()*100+"vw";
+ h.style.fontSize=(18+Math.random()*20)+"px";
+ document.body.appendChild(h);
+ setTimeout(()=>h.remove(),7000);
+}
+setInterval(buatHati,600);
+</script>
+
+</body>
+</html>
